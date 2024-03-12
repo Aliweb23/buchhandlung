@@ -1,53 +1,44 @@
-h1{     
-    font-family: "Courier New", Courier, monospace; /*Schriftfamilie Ãœberschrift  */
-    font-size:200%; margin:0;color:#060;        
-  }  
- 
- html{ 
-    font-family: Verdana, Geneva, sans-serif;/*Schriftfamilie restliche Elemente */
-    color: #666; 
- }
- aside,article,footer,section,div,header,nav{ 
-    border:1px solid gray;margin:5px;padding:10px;
- }
-header{
-   background: #060;
-     color: #131212;    
-
+body {
+   font-family: Verdana, Geneva, sans-serif;
+   color: #666;
+   margin: 0;
+   padding: 0;
 }
 
- 
- body>header{ 
- position:relative;
- }
- 
- body:hover>header:before{ 
- content:"!";
- position:absolute;
- right:3%;
- bottom:-20px;
- font-size:1.4em;
- padding:10px;
- background:#FF9;
- border:1px solid rgb(204,0,0);
- color:rgb(204,0,0);
- }
- 
- body:hover>header:hover:after{
- content:"Codeschnipsel";
- position:absolute;
- right:3%;
- bottom:-20px;
- font-size:1.4em;
- padding:10px;
- background:#FF9;
- border:1px solid rgb(204,0,0);
- color:rgb(204,0,0);
- }
- 
- footer { 
-    border:none;border-top:1px solid grey;background-color:#060;
-    text-align:center;color:#fff;
- }
- 
-  
+header {
+   background-color: #060;
+   color: #fff;
+   padding: 20px;
+   text-align: center;
+}
+
+h1 {
+   font-family: "Courier New", Courier, monospace;
+   font-size: 200%;
+   margin: 0;
+   color: #fff;
+}
+
+section {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding: 20px;
+}
+
+article {
+   float: left;
+   width: calc(25% - 32px);
+   min-width: 160px;
+   border: 1px solid gray;
+   margin: 5px;
+   padding: 10px;
+   color: #fff;
+}
+
+footer {
+   background-color: #060;
+   border-top: 1px solid gray;
+   text-align: center;
+   color: #fff;
+}
