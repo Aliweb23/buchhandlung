@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online-Buchladen</title>
+    <link rel="stylesheet" href="css/start.css">
+    <style>
+        html{
+        /* -webkit-hyphens:auto;
+        -moz-hyphens:auto;
+        hyphens:auto; */
+        }
+        body{
+        font-family: Arial, sans-serif;
+         margin: 0;
+        padding: 0;
+        }
+
+        header {
+        background-color: #060;
+        /* color: #fff; */
+        padding: 20px;
+        text-align: center;
+        }
+        main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+        }
+
+        .book {
+        margin: 20px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 300px;
+        }
+
+        .book img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+        }
+
+        .details {
+        margin-top: 10px;
+        }
+
+        /* footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        } */
+
+
+        article{
+        float:left;
+        width:calc(25% - 32px);
+        /* width:250px; */
+        min-width:160px;
+        /* overflow:auto; */
+        }
+
+    
+        /* Clearfix */
+        section:after,ul:after{
+        content:"";
+        display:table;
+        clear:both;
+        }
+
+        /* @media screen and (max-width:1200px){
+        article{
+            width:calc(50% - 32px);
+        }
+        #a3{clear:both;}
+        } */
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Wilkommen auf unsere Digitale Bibloithek</h1>
+    </header>
+
+    <section> 
+        <h2>Seitenbereich</h2>
+
+        <section class="book-1">
+          <img src="buch1.jpg" alt="Buchcover">
+          <div class="details">
+            <h2>Buchtitel 1</h2>
+            <p>Autor: Autorname</p>
+            <p>Ausgabe: Ausgabeinfo</p>
+            <p>Preis: Preisinfo</p>
+            <p>Kundenbewertung: Bewertungsinfo</p>
+          </div>
+
+        </section>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Buchladen. Alle Rechte vorbehalten.</p>
+    </footer>
+    
+</body>
+</html>
