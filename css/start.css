@@ -1,3 +1,4 @@
+
 body {
    font-family: Verdana, Geneva, sans-serif;
    color: #666;
@@ -18,14 +19,23 @@ h1 {
    margin: 0;
    color: #fff;
 }
+body .title{
+   margin-bottom: 20px;
+   align-self: center;
+   text-align: center;
+}
 
 section {
    display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
+   flex-direction: row;
+   align-items: center; 
    padding: 20px;
 }
-
+section .title-1{
+   margin-bottom: 40px;
+   padding-bottom: 30px;
+   align-self: center;
+}
 article {
    float: left;
    width: calc(25% - 32px);
