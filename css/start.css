@@ -36,6 +36,7 @@ section .title-1{
    padding-bottom: 30px;
    align-self: center;
 }
+
 article {
    float: left;
    width: calc(25% - 32px);
@@ -44,6 +45,14 @@ article {
    margin: 5px;
    padding: 10px;
    color: #fff;
+}
+article .bild {
+   width: 200px; 
+   height: 300px; 
+   display: flex;
+   flex-direction: column;
+   border: 1px solid gray;
+   margin: 5px;
 }
 
 footer {
