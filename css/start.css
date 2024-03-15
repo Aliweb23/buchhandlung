@@ -47,7 +47,6 @@ article {
    width: calc(25% - 32px);
    min-width: 160px;
    border: 1px solid gray;
-   border-left-color:  ;
    margin: 5px;
    padding: 10px;
    color: #000;
@@ -55,22 +54,32 @@ article {
 article .bild {
    width: 100%; /* Bildbreite 100% für responsives Design */
    height: auto; /* Automatische Höhe, um das Seitenverhältnis beizubehalten */
-   border: 2px solid green;
+   border: 2px solid rgb(233, 162, 56);
    margin-bottom: 10px; /* Abstand zwischen Bild und Text hinzugefügt */
    margin-top: 8px;
    /* border-radius: 1%; */
 }
 
-article .bild .details p{
+h2{
+   text-align: center;
+   color: #000;
+}
+p{
+   padding-left: 8px;
    color: #000;
    font-size: 12px;
-   text-align: center;
+   text-align: left;
    /* line-height: 1.5; */
 }
 
 footer {
-   background-color: rgb(242, 234, 178);
+   /* background-color: rgb(242, 234, 178); */
    border-top: 1px solid gray;
    text-align: center;
-   color: #fff;
+   color: #000;
+}
+
+footer p{
+   text-align: center;
+   padding: 10px;
 }
