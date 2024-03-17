@@ -71,6 +71,31 @@ p{
    text-align: left;
    /* line-height: 1.5; */
 }
+.info-box {
+   background-color: #f4f4f4; /* Hintergrundfarbe */
+   border: 1px solid #ddd; /* Randstil und Farbe */
+   border-radius: 5px; /* Abrundung der Ecken */
+   padding: 20px; /* Innenabstand */
+   margin-bottom: 20px; /* Außenabstand nach unten */
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Schatten */
+}
+.info-box h2 {
+   font-size: 24px; /* Überschriftengröße */
+   margin-top: 0; /* Außenabstand über der Überschrift */
+   color: #333; /* Textfarbe */
+}
+.info-box p {
+   font-size: 11px; /* Textgröße */
+   color: #666; /* Textfarbe */
+}
+.info-box a {
+   color: #007bff; /* Linkfarbe */
+   text-decoration: none; /* Linkunterstreichung entfernen */
+}
+
+.info-box a:hover {
+   text-decoration: underline; /* Unterstreichung bei Hover */
+}
 
 footer {
    /* background-color: rgb(242, 234, 178); */
