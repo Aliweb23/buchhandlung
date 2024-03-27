@@ -106,6 +106,10 @@ article .info-box:hover{
    color: #065fbe;
 }
 
+.btn_buy{
+   background: #7d9278;
+}
+
 footer {
    /* background-color: rgb(242, 234, 178); */
    border-top: 1px solid gray;
